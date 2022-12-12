@@ -3560,3 +3560,13 @@ local args = {
 game:GetService("ReplicatedStorage").Events.InsertDrawing:FireServer(unpack(args))
 
 end)
+local Tab = Window:NewTab("#Credits")
+local Section = Tab:NewSection("Credits")
+local Section = Tab:NewSection("My discord:")
+Section:NewButton("Anha#4156", "copy", function()
+    setclipboard("Anha#4156")
+end)
+local Section = Tab:NewSection("My discord channel:")
+Section:NewButton("Discord invite", "copy", function()
+    setclipboard("https://discord.gg/58rKZ7z4RV")
+end)
